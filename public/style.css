@@ -1,0 +1,40 @@
+#show{
+  display: none;
+}
+
+#cross {
+  display: none;
+}
+
+.second_nav{
+    display: none;
+}
+
+/* @media screen and (min-width: 480px) {
+  .first_menu {
+    display: none;
+  }
+  #show {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 300px) {
+  .first_menu {
+    display: none;
+  }
+  #show {
+    display: inline;
+  }
+} */
+
+@media screen and (width: 600px) {
+  #show {
+    display: inline;
+  }
+  .first_menu {
+      display: none;
+  }
+  
+}
+
