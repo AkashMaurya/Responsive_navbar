@@ -11,8 +11,8 @@
 </head>
 
 <body>
-
-    <nav class="flex justify-between p-7 shadow-md bg-red-500">
+    <!-- Responsive Navbar -->
+    <nav class="flex justify-between p-7 shadow-md bg-red-600">
         <p class="text-2xl cursor-pointer hover:text-yellow-400">Christian Projects</p>
 
         <div class="first_menu">
@@ -45,11 +45,20 @@
                     class="text-2xl cursor-pointer hover:text-yellow-400 pl-3 m-3 bg-yelo">About</a></li>
             <li class="text-center pt-2 box-border"> <a href="#"
                     class="text-2xl cursor-pointer hover:text-yellow-400 pl-3 m-3 bg-yelo">Blog</a></li>
-            <li class="text-center pt-2 box-border"> <a href="#"
+            <li class="text-center pt-2 box-border"> <a href="./contact.html"
                     class="text-2xl cursor-pointer hover:text-yellow-400 pl-3 m-3 bg-yelo">Contact</a></li>
         </ul>
     </nav>
 
+    <!-- Header image -->
+    <div class="container mx-auto w-full">
+        <div class="relative w-40 h-40 rounded-full overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1504052434569-70ad5836ab65?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+                alt="" srcset="" class="object-cover w-full h-full">
+            <div class="absolute w-full py-2.5 bottom-0 inset-x-0 bg-blue-400 text-white text-2xl text-center leadi">Top
+                Left</div>
+        </div>
+    </div>
 
 
 
@@ -62,29 +71,8 @@
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
 
+    <script src="./script.js"></script>
 
-    <script>
-        $(document).ready(function () {
-
-            $('#show').click(function () {
-
-                $('.second_nav').show();
-                $('#show').hide();
-                $('#cross').show();
-
-            });
-
-            $('#cross').click(function () {
-
-                $('.second_nav').hide();
-                $('#show').show();
-                $('#cross').hide();
-
-            });
-
-
-        });
-    </script>
 </body>
 
 </html>
