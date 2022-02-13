@@ -18,15 +18,26 @@
     display: inline;
   }
 }
-
-@media screen and (min-width: 300px) {
+*/
+@media screen and (max-width: 400px) {
   .first_menu {
     display: none;
   }
   #show {
     display: inline;
   }
-} */
+} 
+
+
+@media screen and (max-width: 500px) {
+  .first_menu {
+    display: none;
+  }
+  #show {
+    display: inline;
+  }
+} 
+
 
 @media screen and (width: 600px) {
   #show {
